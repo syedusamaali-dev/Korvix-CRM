@@ -1,0 +1,7 @@
+git add .
+$env:GIT_COMMITTER_DATE="2026-05-10T14:30:00"
+git commit --date="2026-05-10T14:30:00" -m "Initial commit with past date"
+Remove-Item Env:\GIT_COMMITTER_DATE
+git branch -M main
+git remote add origin https://github.com
+git push -u origin main
