@@ -33,7 +33,7 @@ ul{padding-left:1rem;font-size:0.875rem;}
 ul li{line-height:1.8;}
 /*! CSS Used from: http://127.0.0.1:5500/src/assets/css/demo_1/style.css */
 .nav .nav-item{line-height:1;}
-.sidebar{min-height:calc(100vh - 63px);background:linear-gradient(to top, #5768f3, #1c45ef);font-family:"roboto", sans-serif;padding:0;width:270px;z-index:11;transition:width 0.25s ease, background 0.25s ease;-webkit-transition:width 0.25s ease, background 0.25s ease;-moz-transition:width 0.25s ease, background 0.25s ease;-ms-transition:width 0.25s ease, background 0.25s ease;}
+.sidebar{min-height:calc(471vh - 63px);background:linear-gradient(to top, #5768f3, #1c45ef);font-family:"roboto", sans-serif;padding:0;width:270px;z-index:11;transition:width 0.25s ease, background 0.25s ease;-webkit-transition:width 0.25s ease, background 0.25s ease;-moz-transition:width 0.25s ease, background 0.25s ease;-ms-transition:width 0.25s ease, background 0.25s ease;}
 .sidebar > .nav{overflow:hidden;flex-wrap:nowrap;flex-direction:column;}
 .sidebar > .nav .nav-item .collapse{z-index:999;}
 .sidebar > .nav .nav-item:not(.hover-open) .collapse .sub-menu{margin:5px 0;}

@@ -1,0 +1,26 @@
+:host {
+  display: block;
+  height: 100vh;
+}
+
+.container-scroller {
+  min-height: 100vh;
+}
+
+.page-body-wrapper {
+  display: flex;
+  min-height: calc(100vh - 70px); // adjust if your header height differs
+}
+
+.main-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.content-wrapper {
+  flex: 1;
+  padding: 24px;
+  overflow: auto;
+}
